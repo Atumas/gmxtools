@@ -1,0 +1,116 @@
+<body><div class="wrapper">
+	<header>
+		<h1><a href="https://jerkwin.github.io/gmxtools/">gmxtools</a></h1>
+		<p>scripts/programs/utilities/tools for GROMACS</p>
+		<p class="view"><a href="#Introduction">Introduction</a></p>
+		<p class="view"><a href="#Tools">Tools</a></p>
+	</header><h2 id="Introduction">Introduction</h2><p>This is a collection of the tools I used for GROMACS. Hope it helps for you as well.</p>
+<p>If you use one/some of the tools for your publication(s), I will appreciate if you cite the Zenodo DOI <a href="https://doi.org/10.5281/zenodo.6408973">10.5281/zenodo.6408973</a></p><h2 id="Tools">Tools</h2></p><table>
+<th>NAME</th><th>DESCRIPTION</th><th>CODE</th><th>EXAMPLE</th><tr>
+<td><code>calc</code></td>
+<td><a href="https://jerkwin.github.io/2019/11/19/%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%85%BC%E5%8D%95%E4%BD%8D%E6%8D%A2%E7%AE%97%E5%99%A8/">Online calculator and unit converter</a></td>
+<td><a href="./calc/calc.html">calc</a><br>
+<a href="./calc/gnuecharts.html">gnuECharts</a></td>
+</tr><tr>
+<td><code>wvmd</code></td>
+<td><a href="https://jerkwin.github.io/2017/02/11/%E8%87%AA%E5%8A%A8%E8%B0%83%E6%95%B4VMD%E7%AA%97%E5%8F%A3%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%92%8C%E5%A4%A7%E5%B0%8F/">Automatically adjust the position and size of the VMD window</a></td>
+<td><a href="./wvmd/wvmd.zip">wvmd.zip</a></td>
+</tr><tr>
+<td><code>graphene</code></td>
+<td><a href="https://jerkwin.github.io/2014/05/09/%E7%9F%B3%E5%A2%A8%E7%83%AF-%E5%BB%BA%E6%A8%A1-%E5%87%A0%E4%BD%95%E6%80%A7%E8%B4%A8%E5%8F%8A%E5%8A%9B%E5%9C%BA%E6%A8%A1%E6%8B%9F/">Graphene: modeling, geometric properties, and force-field simulation</a><br>
+<a href="https://jerkwin.github.io/2014/12/24/%E7%9F%B3%E5%A2%A8%E7%83%AF%E5%9C%A8%E7%BA%BF%E5%88%9B%E5%BB%BA%E5%B7%A5%E5%85%B7/">Online graphene creation tool</a><br>
+<a href="https://jerkwin.github.io/GMX/GMXtut-8/">Creating topology files for periodic systems: graphene as an example</a><br>
+<a href="https://jerkwin.github.io/2020/04/05/%E6%B0%A7%E5%8C%96%E7%9F%B3%E5%A2%A8%E7%83%AF%E7%9A%84%E7%BB%93%E6%9E%84%E4%B8%8E%E5%BB%BA%E6%A8%A1/">Structure and modeling of graphene oxide</a><br>
+<a href="https://jerkwin.github.io/2020/06/03/%E7%9F%B3%E5%A2%A8%E7%83%AF%E5%B9%B3%E9%9D%A2%E7%9A%84%E5%8D%B7%E6%9B%B2%E4%B8%8E%E6%89%AD%E6%9B%B2/">Bending and twisting of graphene sheets</a><br>
+</td>
+<td><a href="./model/graphene.html">graphene</a></td>
+</tr><tr>
+<td><code>pipistack</code></td>
+<td><a href="https://jerkwin.github.io/2018/08/29/Pi-Pi%E5%A0%86%E7%A7%AF%E8%B7%9D%E7%A6%BB%E5%92%8C%E5%A0%86%E7%A7%AF%E8%A7%92%E5%BA%A6%E7%9A%84%E8%AE%A1%E7%AE%97/">Calculation of Pi-Pi stacking distance and stacking angle</a></td>
+<td><a href="./pipistack/pipistack.tcl">pipistack.tcl</a><br>
+<a href="./pipistack/pipistack_linalg.tcl">pipistack_linalg.tcl</a></td>
+<td><a href="./pipistack/ph2.zip">ph2.zip</a></td>
+</tr><tr>
+<td><code>xpm2all</code></td>
+<td><a href="https://jerkwin.github.io/2018/05/09/xpm%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86%E8%84%9A%E6%9C%AC/">XPM file-processing script</a><br>
+<a href="https://jerkwin.github.io/2020/02/29/%E5%88%86%E5%AD%90%E6%A8%A1%E6%8B%9F%E5%91%A8%E5%88%8A-%E7%AC%AC_8_%E6%9C%9F/">xpm2all: XPM file conversion tool</a>
+</td>
+<td><a href="./xpm2all/xpm2all.bsh">xpm2all.bsh</a><br>
+<a href="./xpm2all/xpm2rgb.bat">xpm2rgb.bat</a>
+</td>
+<td><a href="./xpm2all/ss.xpm">ss.xpm</a><br>
+<a href="./xpm2all/gibbs.xpm">gibbs.xpm</a>
+</td>
+</tr><tr>
+<td><code>dssp2gp</code></td>
+<td><a href="https://jerkwin.github.io/2020/07/10/%E4%BD%BF%E7%94%A8xpm2all%E8%84%9A%E6%9C%AC%E8%AE%A1%E7%AE%97%E8%9B%8B%E7%99%BD%E4%BA%8C%E7%BA%A7%E7%BB%93%E6%9E%84%E6%BC%94%E5%8C%96%E5%8F%8A%E5%90%AB%E9%87%8F/">Using the xpm2all script to calculate protein secondary-structure evolution and content</a><br>
+<a href="https://jerkwin.github.io/2021/03/30/xpm2all%E6%9B%B4%E6%96%B0-%E4%BA%8C%E7%BA%A7%E7%BB%93%E6%9E%84%E7%BB%98%E5%88%B6,_%E9%A2%9C%E8%89%B2%E6%96%B9%E6%A1%88/">xpm2all update: secondary-structure plotting and color schemes</a><br>
+<a href="https://jerkwin.github.io/2024/01/14/dssp%E6%95%B0%E6%8D%AE%E7%BB%98%E5%9B%BE%E8%84%9A%E6%9C%ACdssp2gp/">DSSP data plotting script dssp2gp</a>
+</td>
+<td><a href="./dssp2gp/dssp2gp.bsh">dssp2gp.bsh</a></td>
+<td><a href="./dssp2gp/ss.xpm">dssp.dat</a></td>
+</tr><tr>
+<td><code>gmx_mmpbsa</code></td>
+<td>
+<a href="https://jerkwin.github.io/2019/07/31/gmx_mmpbsa%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/">gmx_mmpbsa usage instructions</a><br>
+<a href="https://jerkwin.github.io/2021/03/16/gmx_mmpbsa%E8%84%9A%E6%9C%AC%E6%9B%B4%E6%96%B0-%E5%B1%8F%E8%94%BD%E6%95%88%E5%BA%94%E4%B8%8E%E7%86%B5%E8%B4%A1%E7%8C%AE/">gmx_mmpbsa script update: screening effects and entropy contributions</a><br>
+<a href="https://jerkwin.github.io/2021/11/26/gmx_mmpbsa%E8%84%9A%E6%9C%AC%E6%9B%B4%E6%96%B0-%E6%B8%85%E7%90%86%E6%95%B4%E7%90%86%E8%BE%93%E5%87%BA/">gmx_mmpbsa script update: cleaning and organizing output</a><br>
+<a href="https://jerkwin.github.io/2022/02/09/gmx_mmpbsa%E6%9B%B4%E6%96%B0-%E4%BF%AE%E6%AD%A3%E5%8E%9F%E5%AD%90%E5%8D%8A%E5%BE%84bug,_%E6%94%B9%E7%94%A8AMBRR_PB4,_%E4%B8%99%E6%B0%A8%E9%85%B8%E6%89%AB%E6%8F%8FCAS/">gmx_mmpbsa update: fixed atomic-radius bug, switched to AMBRR PB4, alanine scanning CAS</a>
+</td>
+<td><a href="./gmx_mmpbsa/gmx_mmpbsa.bsh">gmx_mmpbsa.bsh</a></td>
+<td><a href="./gmx_mmpbsa/1ebz.zip">1ebz.zip</a></td>
+</tr><tr>
+<td><code>gmx_ir</code></td>
+<td><a href="https://jerkwin.github.io/2017/08/20/%E4%BD%BF%E7%94%A8GROMACS%E8%AE%A1%E7%AE%97%E7%BA%A2%E5%A4%96%E5%85%89%E8%B0%B1/">Calculating infrared spectra using GROMACS</a><br>
+<a href="https://jerkwin.github.io/2024/04/08/trr%E8%BD%A8%E8%BF%B9%E8%BD%AC%E6%8D%A2%E7%A8%8B%E5%BA%8Ftrr2all/">TRR trajectory conversion program trr2all</a>
+</td>
+<td><a href="./gmx_ir/gmx_ir.bsh">gmx_ir.bsh</a></td>
+</tr><tr>
+<td><code>trr2all</code></td>
+<td><a href="https://jerkwin.github.io/2017/08/20/%E4%BD%BF%E7%94%A8GROMACS%E8%AE%A1%E7%AE%97%E7%BA%A2%E5%A4%96%E5%85%89%E8%B0%B1/">Calculating infrared spectra using GROMACS</a><br>
+<a href="https://jerkwin.github.io/2024/04/08/trr%E8%BD%A8%E8%BF%B9%E8%BD%AC%E6%8D%A2%E7%A8%8B%E5%BA%8Ftrr2all/">TRR trajectory conversion program trr2all</a>
+</td>
+<td><a href="./trr2all/trr2all.exe">trr2all.exe</a></td>
+<td><a href="./trr2all/spc216.zip">spc216.zip</a></td>
+</tr><tr>
+<td><code>gmx_hbdat</code></td>
+<td>
+<a href="https://jerkwin.github.io/2021/06/19/GROMACS氢键分析工具hbond的使用及扩展/">Use and extension of the GROMACS hydrogen-bond analysis tool hbond</a><br>
+<a href="https://jerkwin.github.io/2022/05/23/使用gnuplot绘制氢键数据的平行轴图/">Using gnuplot to plot parallel-coordinate graphs of hydrogen-bond data</a><br>
+</td>
+<td><a href="./gmx_hbdat/gmx_hbdat.bsh">gmx_hbdat.bsh</a></td>
+<td><a href="./gmx_hbdat/hbdat_1crn.zip">hbdat_1crn.zip</a></td>
+</tr><tr>
+<td><code>remd_tgenerator</code></td>
+<td><a href="https://jerkwin.github.io/2021/09/30/副本交换动力学T-REMD模拟的温度分布计算器/">Temperature distribution calculator for replica-exchange molecular dynamics (T-REMD) simulations</a></td>
+<td><a href="./remd_tgenerator/remd_tgenerator.html">remd_tgenerator</a></td>
+</tr><tr>
+<td><code>xff</code></td>
+<td><a href="https://jerkwin.github.io/2022/04/15/%E5%8A%9B%E5%9C%BA%E6%8B%9F%E5%90%88%E5%B7%A5%E5%85%B7xff%E5%BC%80%E5%8F%91%E6%9D%82%E8%AE%B0/">Development notes for the force-field fitting tool xff</a></td>
+<td><a href="./xff/xff.html">xff</a></td>
+<td><a href="./xff/c6h6.fchk">c6h6.fchk</a><br>
+<a href="./xff/sf6.FChk">sf6.FChk</a>
+</td>
+</tr><tr>
+<td><code>cagen</code></td>
+<td><a href="https://jerkwin.github.io/2022/09/02/%E6%B0%B4%E6%BA%B6%E6%B6%B2%E4%BD%93%E7%B3%BB%E6%88%90%E7%AC%BC%E5%88%86%E6%9E%90%E7%A8%8B%E5%BA%8Fcagen/">Cage-formation analysis program cagen for aqueous systems</a></td>
+<td></td>
+<td><a href="./cagen/cagen.zip">cagen.zip</a></td>
+</tr><tr>
+<td><code>fitmol</code></td>
+<td><a href="./fitmol/README.md.html">README</a></td>
+<td><a href="./fitmol/FitMol.f90">FitMol.f90</a></td>
+<td><a href="./fitmol/ch4.xyz">ch4.xyz</a><br>
+<a href="./fitmol/ch4_ch3oh.xyz">ch4_ch3oh.xyz</a>
+</td>
+</tr><tr>
+<td><code>matchmol</code></td>
+<td><a href="https://jerkwin.github.io/2023/06/02/%E5%88%86%E5%AD%90%E7%BB%93%E6%9E%84%E5%8C%B9%E9%85%8D%E7%A8%8B%E5%BA%8Fmatchmol/">Molecular structure matching program matchmol</a></td>
+<td></td>
+<td><a href="./matchmol/matchmol.zip">matchmol.zip</a></td>
+</tr></table><h2 id="Questions">Questions?</h2></p>If you have any quesiotns about these tools, please let me know.
+
+<ul>
+<li><a href="https://groups.google.com/forum/#!forum/gmxtools">Google Forum</a></li>
+<li><a href="https://github.com/Jerkwin/gmxtools/issues">GitHub issues</a></li>
+</ul></div></body>
